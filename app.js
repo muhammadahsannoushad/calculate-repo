@@ -18,3 +18,4 @@ function deleteChar(){
     remove =remove.slice(0,-1);
     number.value =remove;
 }
+
