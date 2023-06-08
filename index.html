@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+   <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <h2>Calculator</h2>
+    <div class="main">
+        <div class="cal">
+        <table>
+            <tr>
+               <input type="text" name="" class="box" id="input" placeholder="0"> 
+            </tr>
+        <tr>
+            <td><button onclick="clearResult()">C</button></td>
+            <td><button onclick="deleteChar()">Del</button></td>
+            <td><button onclick="number('/')">/</button></td>
+            <td><button onclick="number('*')">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="number('7')">7</button></td>
+            <td><button onclick="number('8')">8</button></td>
+            <td><button onclick="number('9')">9</button></td>
+            <td><button onclick="number('+')">+</button></td>
+        </tr>
+        <tr> 
+            <td><button onclick="number('4')">4</button></td>
+            <td><button onclick="number('5')">5</button></td>
+            <td><button onclick="number('6')">6</button></td>
+            <td><button onclick="number('-')">-</button></td>
+        </tr>
+        <tr >
+            <td><button  onclick="number('1')" >1</button></td>
+            <td><button onclick="number('2')" >2</button></td>
+            <td><button  onclick="number('3')">3</button></td>
+            <td rowspan="2" ><button onclick="result()" class="btn" >=</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="number('0')">0</button></td>
+            <td><button onclick="number('.')">.</button></td>
+            <td><button onclick="number('%')">%</button></td>
+            <!-- <td><button></button></td> -->
+        </tr>   
+        </table>
+    </div>
+ 
+    </div>
+    <footer class="foot">Prepared by Ahsan Noushad</footer>
+   <script src="./App.js"></script> 
+</body>
+</html>
