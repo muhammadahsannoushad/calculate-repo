@@ -1,2 +1,2 @@
-# calculate-repo
+# Calculate-repo
 My New calculator 
